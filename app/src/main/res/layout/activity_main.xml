@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:freezesText="true"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        />
+
+    <Button
+        android:id="@+id/btn_go_crfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear leer archivo"
+        />
+
+    <Button
+        android:id="@+id/btn_go_xml_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go xml activity"
+        />
+
+    <Button
+        android:id="@+id/btn_go_preferences_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go SharedPreferences activity"
+        />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.sergio.manejodatos.BlankFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
